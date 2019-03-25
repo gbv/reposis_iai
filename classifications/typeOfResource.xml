@@ -17,8 +17,8 @@
     </category>
     <category ID="notated_music">
       <label xml:lang="it" text="Musica annotata" />
-      <label xml:lang="de" text="Notierte Musik" />
       <label xml:lang="en" text="notated music" description="Graphic, non-realized representations of musical works, both in printed and digitized manifestations that represent the four components of musical sound: pitch, duration, timbre, and loudness. " />
+      <label xml:lang="de" text="Notierte Musik" />
     </category>
     <category ID="sound_recording">
       <label xml:lang="en" text="Sound recording" description="Used when a mixture of musical and nonmusical sound recordings occurs in a resource or when a user does not want to or cannot make a distinction between musical and nonmusical. " />
@@ -51,8 +51,8 @@
       <label xml:lang="en" text="Three dimensional object" description="Includes man-made objects such as models, sculptures, clothing, and toys, as well as naturally occurring objects such as specimens mounted for viewing." />
     </category>
     <category ID="software,_multimedia">
-      <label xml:lang="de" text="Software, Multimedia" />
       <label xml:lang="en" text="Software, multimedia" description="It includes: software, numeric data, computer-oriented multimedia, and online systems and services. " />
+      <label xml:lang="de" text="Software, Multimedia" />
       <label xml:lang="it" text="Software, multimedia" />
     </category>
     <category ID="mixed_material">
