@@ -37,6 +37,7 @@ html {
         #page {
             background-color: $content-bg;
             margin-top: 60px;
+	    padding-top: 0px;
         }
         #powered_by {
             background-color: $footer-bg;
@@ -117,6 +118,33 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+
+/* ==== yellow page headlines ==== */
+
+// start page headline
+.jumbotwo .col-xs-12 {
+    background-color: $brand-warning;
+}
+html body #page #main_content .jumbotwo h2 {
+    color: $contrast-font-color;
+    margin-top: 30px;
+}
+
+// result list headline
+.row {
+    &.result_head {
+        background-color: $brand-warning;
+        .result_headline {
+	    h1 {
+		color: $contrast-font-color;
+	        margin-top: 20px;
+            }
+	}
+    }
+}
+
+
+/* ==== result list ==== */
 .result_body {
     .result_list {
         #hit_list { 
