@@ -15,9 +15,11 @@ $border-hover-color: $brand-primary;
 /* xs: default up to 750px ***************************************************/
 
 html {
-    min-height: 100vh;
     background-color: $footer-bg;
     body {
+	min-height: 100vh;
+	position: relative;
+	padding-bottom: 550px;
         background-color: $page-bg; 
         color: $text-color;
         header {
@@ -90,6 +92,12 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
     color: $headline-color;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .flatmir-footer {
@@ -203,7 +211,13 @@ form .panel-footer {
 }
 
 /* xs hd *********************************************************************/ 
-@media (min-width: 420px) { }  
+@media (min-width: 420px) {
+    html {
+        body {
+	    padding-bottom: 490px;
+	}
+    }
+}  
 
 /* custom width **************************************************************/ 
 @media (min-width: 550px) { }  
@@ -212,6 +226,7 @@ form .panel-footer {
 @media (min-width: $screen-tablet) {
     html {
         body {
+	    padding-bottom: 370px;
             header {
                 background-position: 50% 0;
                 background-image: url('../../../../images/header_back_sm.jpg');
@@ -229,6 +244,7 @@ form .panel-footer {
 @media (min-width: $screen-desktop) { 
     html {
         body {
+	    padding-bottom: 340px;
             header {
                 background-image: url('../../../../images/header_back_md.jpg');
             }
@@ -243,6 +259,7 @@ form .panel-footer {
 @media (min-width: $screen-lg-desktop) {
     html {
         body {
+	    padding-bottom: 320px;
             header {
                 background-image: url('../../../../images/header_back_lg.jpg');
             }
