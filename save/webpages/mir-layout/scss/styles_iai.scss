@@ -40,6 +40,9 @@ html {
             background-color: $content-bg;
             margin-top: 60px;
 	    padding-top: 0px;
+	    #main_content {
+		padding-bottom: 50px;
+            }
         }
         #powered_by {
             background-color: $footer-bg;
@@ -50,6 +53,9 @@ html {
 
 // main menu
 // with search, browse, bookmarks ...
+.caret {
+    margin-left: 4px;
+}
 .mir-main-nav {
     height: 60px;
     nav {
@@ -90,6 +96,11 @@ html {
     color: #fff;
 }
 
+
+.mir-main-nav nav .navbar-nav .dropdown-menu::before {
+    border-color: transparent transparent $brand-primary transparent; 
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: $headline-color;
 }
@@ -107,8 +118,14 @@ footer {
 
 // options menu 
 // with settings and language switcher
-#options_nav_box ul li {
-    display: inline-block;
+#options_nav_box ul {
+    min-width: auto;
+    left: auto;
+    right: -10px;
+    padding: 5px 5px 5px 0px;
+    li {
+        display: inline-block;
+    }
 }
 
 .mir-prop-nav .navbar-nav > li > a {
@@ -236,6 +253,9 @@ form .panel-footer {
                     }
                 }            
 	    }
+        }
+	#options_nav_box ul li {         
+	    display: block;     
         }
     }	
 }   
