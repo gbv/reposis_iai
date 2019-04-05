@@ -11,11 +11,11 @@
             <label xml:lang="de">Start</label>
             <label xml:lang="en">Start</label>
         </item>
-        <item href="/content/brand/impressum.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/below/impressum.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Impressum</label>
             <label xml:lang="en">Impressum</label>
         </item>
-        <item href="/content/brand/contact.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+        <item href="/content/below/contact.xml" type="intern" replaceMenu="false" constrainPopUp="false">
             <label xml:lang="de">Kontakt</label>
             <label xml:lang="en">Contact</label>
         </item>
