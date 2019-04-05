@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_genres">
+  <label xml:lang="pt" text="Género" />
+  <label xml:lang="en" text="genre" description="A list of publication types" />
+  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_genres" />
+  <label xml:lang="es" text="Género" />
+  <label xml:lang="de" text="Genre" description="Liste der Publikationsarten" />
+  <categories>
+    <category ID="series">
+      <label xml:lang="en" text="Series" />
+      <label xml:lang="pt" text="Coleção" />
+      <label xml:lang="de" text="Serie" />
+      <label xml:lang="es" text="Serie" />
+    </category>
+    <category ID="journal">
+      <label xml:lang="es" text="Revista" />
+      <label xml:lang="de" text="Zeitschrift" />
+      <label xml:lang="en" text="Journal" />
+      <label xml:lang="pt" text="Revista" />
+    </category>
+    <category ID="article">
+      <label xml:lang="es" text="Artículo de revista" />
+      <label xml:lang="de" text="Zeitschriftenaufsatz" />
+      <label xml:lang="pt" text="Artigo de revista" />
+      <label xml:lang="en" text="Journal article" />
+    </category>
+    <category ID="book">
+      <label xml:lang="es" text="Libro" />
+      <label xml:lang="pt" text="Antologia" />
+      <label xml:lang="en" text="Edited book" />
+      <label xml:lang="de" text="Sammelband / Monographie" />
+    </category>
+    <category ID="chapter">
+      <label xml:lang="en" text="Book chapter" />
+      <label xml:lang="de" text="Beitrag in Sammelband" />
+      <label xml:lang="pt" text="Capítulo de livro" />
+      <label xml:lang="es" text="Capítulo de libro" />
+    </category>
+    <category ID="av">
+      <label xml:lang="pt" text="Audio/Video" />
+      <label xml:lang="en" text="Audio/Video Media" />
+      <label xml:lang="de" text="Audio/Video Medium" />
+      <label xml:lang="es" text="Audio/Video" />
+      <category ID="picture">
+        <label xml:lang="de" text="Bild" />
+        <label xml:lang="en" text="Picture" />
+      </category>
+      <category ID="film">
+        <label xml:lang="de" text="Film" />
+        <label xml:lang="en" text="Film" />
+      </category>
+      <category ID="filmstrip">
+        <label xml:lang="en" text="Filmstrip" />
+        <label xml:lang="de" text="Filmstreifen" />
+      </category>
+      <category ID="audiorec">
+        <label xml:lang="de" text="Tonaufnahme" />
+        <label xml:lang="en" text="Audio Recording" />
+      </category>
+      <category ID="videorec">
+        <label xml:lang="en" text="Video Recording" />
+        <label xml:lang="de" text="Videoaufnahme" />
+      </category>
+      <category ID="tvBroadcast">
+        <label xml:lang="en" text="TV Broadcast" />
+        <label xml:lang="de" text="Fernsehsendung" />
+      </category>
+      <category ID="radioBroadcast">
+        <label xml:lang="de" text="Radiosendung" />
+        <label xml:lang="en" text="Radio Broadcast" />
+      </category>
+    </category>
+    <category ID="report">
+      <label xml:lang="de" text="Report" />
+      <label xml:lang="pt" text="Relatório" />
+      <label xml:lang="es" text="Informe" />
+      <label xml:lang="en" text="Report" />
+      <category ID="research_results">
+        <label xml:lang="en" text="Research Results" />
+        <label xml:lang="de" text="Forschungsergebnisse" />
+      </category>
+      <category ID="in_house">
+        <label xml:lang="en" text="In House" />
+        <label xml:lang="de" text="In House" />
+      </category>
+      <category ID="press_release">
+        <label xml:lang="de" text="Presseerklärung" />
+        <label xml:lang="en" text="Press Release" />
+      </category>
+      <category ID="poster">
+        <label xml:lang="en" text="Poster" />
+        <label xml:lang="de" text="Poster" />
+      </category>
+      <category ID="declaration">
+        <label xml:lang="en" text="Professional Declaration" />
+        <label xml:lang="de" text="Fachliche Stellungnahme" />
+      </category>
+    </category>
+  </categories>
+</mycoreclass>
