@@ -14,7 +14,7 @@
         <xed:bind xpath="@mask" default="search/simple_intern.xed" />
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h3 class="panel-title">
+            <h3 class="panel-title iai-first-headline">
               <xed:output i18n="component.mods.editor.search.label" />
             </h3>
           </div>

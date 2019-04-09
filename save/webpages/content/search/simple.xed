@@ -16,7 +16,7 @@
           <xed:bind xpath="boolean[@operator='or']/condition[@field='createdby']/@value" default="{$CurrentUser}" />
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">
+              <h3 class="panel-title iai-first-headline">
                 <xed:output i18n="component.mods.editor.search.label" />
               </h3>
             </div>
