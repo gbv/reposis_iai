@@ -3,7 +3,7 @@
 <MyCoReWebPage>
   <section xml:lang="de" title="Impressum">
     <div class="blockbox">
-      <h2>Ibero Amerikanisches Institut Preußischer Kulturbesitz</h2>
+      <h2 class="iai-first-headline">Ibero Amerikanisches Institut Preußischer Kulturbesitz</h2>
       <p class="einleitung"></p>
       <p>Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur Anbieterkennzeichnung,
         sowie wichtige rechtliche Hinweise zur Internetpräsenz des Ibero-Amerikanischen Instituts Preußischer
