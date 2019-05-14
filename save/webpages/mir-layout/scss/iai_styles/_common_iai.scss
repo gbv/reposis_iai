@@ -1,0 +1,241 @@
+/*****************************************************************************
+ * project changes  
+ *****************************************************************************/  
+
+$page-bg:            #87b1db;   // light blue
+$header-bg:          #295586;   // dark blue
+$footer-bg:          $header-bg;
+$footer-color:       $brand-primary;
+$content-bg:         #d9edff;   // white blue
+$headline-color:     #031C52;   // black blue
+$text-color:         #444;
+$border-color:       $page-bg;
+$border-hover-color: $brand-primary;
+
+/* xs: default up to 750px ***************************************************/
+
+html {
+    background-color: $footer-bg;
+    body {
+	min-height: 100vh;
+	position: relative;
+	padding-bottom: 300px;
+        background-color: $page-bg; 
+        color: $text-color;
+        header {
+            background-color: $header-bg;
+            background-image: url('../../../../images/header_back_xs.jpg');
+            background-repeat: no-repeat;
+            background-position: 15px 0;
+            #header_box {
+                margin: 0 auto 0 auto;
+                height: 211px;
+                #project_logo_box img {
+                    margin-top: 20px;
+                }
+	    }
+	}
+        #page {
+            background-color: $content-bg;
+            margin-top: 60px;
+	    padding-top: 0px;
+	    #main_content {
+		padding-bottom: 50px;
+            }
+        }
+        #powered_by {
+            background-color: $footer-bg;
+            border: none;
+        }
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $headline-color;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.flatmir-footer {
+    border: none; 
+    color: $page-bg;
+}
+
+/* ==== yellow page headlines ==== */
+
+@mixin first-headline {
+    color: $brand-primary;
+    background-color: $brand-warning;
+    margin: 0 -15px 30px -15px;
+    padding: 15px;
+}
+
+// start page headline
+.jumbotwo .col-xs-12 {
+    background-color: $brand-warning;
+}
+html body #page #main_content .jumbotwo h2 {
+    color: $contrast-font-color;
+    margin-top: 30px;
+}
+
+// result list headline
+.row {
+    &.result_head {
+        background-color: $brand-warning;
+        .result_headline {
+	    h1 {
+		color: $contrast-font-color;
+	        margin-top: 20px;
+            }
+	}
+    }
+}
+
+// basket
+#main_content {
+    #basket {
+	#options {
+	    margin-top: 15px;
+        }
+	h2 {
+	    @include first-headline;
+	}
+    }
+}
+
+// login
+#main_content .form-login-heading { @include first-headline; }
+#page #main_content .iai-first-headline { @include first-headline; }
+#main_content form .panel-heading {padding: 0; }
+
+/* ==== result list ==== */
+.result_body {
+    .result_list {
+        #hit_list { 
+	    .hit_item {
+		border-color: $border-color;
+	        .hit_counter,
+	        .single_hit_option {
+		    color: $border-color;
+                    border-color: $border-color;
+                }
+		.hit_icon {
+		    border-color: $border-color;
+		    background-color: white;
+		}
+		&:hover {
+                    border-color: $border-hover-color;
+                    .hit_counter,
+                    .single_hit_option {
+                        color: $border-hover-color;
+                        border-color: $border-hover-color;
+                    }
+                    .hit_icon {
+                        border-color: $border-hover-color;
+                    }			
+		}
+	    }	
+	}
+	.result_list_end {
+            border-color: $border-color;
+        }
+    }
+}
+ul.cbList li,
+ul.cbList li:nth-child(2n+1) {
+    background-color: white;
+}
+
+form .panel {
+    background-color: transparent;
+    border: 0px solid transparent;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.05);
+    box-shadow: 0 0px 0px rgba(0,0,0,0.05);
+}
+
+form .panel-default > .panel-heading {
+    background-color: transparent;
+    border: none;
+}
+form .panel-heading {
+    border-bottom: 0px solid transparent;
+}
+
+form .panel-footer {     
+    background-color: transparent;     
+    border-top: none;     
+}
+
+// pagination
+.pagination > .disabled > span, 
+.pagination > .disabled > span:hover, 
+.pagination > .disabled > span:focus, 
+.pagination > .disabled > a, 
+.pagination > .disabled > a:hover, 
+.pagination > .disabled > a:focus {
+    background-color: #ccc;
+}
+
+// figure start page
+.mir-figure {
+    width: 100%;
+    margin-top: 20px;
+    margin: 20px 0px 20px 30px;
+}
+
+/* xs hd *********************************************************************/ 
+@media (min-width: 420px) {
+}  
+
+/* custom width **************************************************************/ 
+@media (min-width: 550px) { }  
+
+/* sm: up to 970 px **********************************************************/ 
+@media (min-width: $screen-tablet) {
+    html {
+        body {
+	    padding-bottom: 250px;
+            header {
+		height: 270px;
+                background-position: 50% 0;
+                background-image: url('../../../../images/header_back_sm.jpg');
+                #header_box {
+                    #project_logo_box img {
+                        margin-left: -15px;
+                    }
+                }            
+	    }
+        }
+    }	
+}   
+
+/* md: up to 1170 px *********************************************************/ 
+@media (min-width: $screen-desktop) { 
+    html {
+        body {
+            header {
+                background-image: url('../../../../images/header_back_md.jpg');
+            }
+        }
+    }
+    // figure start page
+    .mir-figure {
+        width: 50%;
+    }
+}  
+
+/* lg: larger than 1170 px ***************************************************/ 
+@media (min-width: $screen-lg-desktop) {
+    html {
+        body {
+            header {
+                background-image: url('../../../../images/header_back_lg.jpg');
+            }
+        }
+    }
+}
