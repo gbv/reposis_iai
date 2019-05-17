@@ -3,15 +3,14 @@
 <MyCoReWebPage>
   <section xml:lang="de" title="Impressum">
     <div class="blockbox">
-      <h2>Ibero Amerikanisches Institut Preußischer Kulturbesitz</h2>
-      <p class="einleitung"></p>
+      <h2 class="iai-first-headline">Ibero Amerikanisches Institut Preußischer Kulturbesitz</h2>
+      <p class="einleitung" />
       <p>Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur Anbieterkennzeichnung,
         sowie wichtige rechtliche Hinweise zur Internetpräsenz des Ibero-Amerikanischen Instituts Preußischer
-        Kulturbesitz.
-      </p>
-      <div class="trennlinie"></div>
+        Kulturbesitz.</p>
+      <div class="trennlinie" />
       <h2>Anbieter</h2>
-      <p class="einleitung"></p>
+      <p class="einleitung" />
       <p>Anbieter dieser Internetpräsenz ist im Rechtssinne das Ibero-Amerikanische Institut Preußischer Kulturbesitz.</p>
       <p>
         Ibero-Amerikanisches Institut Preußischer Kulturbesitz
@@ -28,47 +27,44 @@
         E-Mail:
         <a href="mailto:iai@iai.spk-berlin.de" class="email">iai@iai.spk-berlin.de</a>
       </p>
-      <div class="trennlinie"></div>
+      <div class="trennlinie" />
       <h2>Vertreter</h2>
-      <p class="einleitung"></p>
+      <p class="einleitung" />
       <p>
         Das
         <acronym title="Ibero Amerikanisches Institut">IAI</acronym>
         wird gesetzlich vertreten durch seine Direktorin.
       </p>
-      <div class="trennlinie"></div>
+      <div class="trennlinie" />
       <h2>Umsatzsteueridentifikationsnummer</h2>
-      <p class="einleitung"></p>
+      <p class="einleitung" />
       <p>
         Die Umsatzsteueridentifikationsnummer des
         <acronym title="Ibero Amerikanisches Institut">IAI</acronym>
         lautet: DE 81 1176 992
       </p>
-      <div class="trennlinie"></div>
+      <div class="trennlinie" />
       <h2>Presserechtliche Verantwortlichkeit</h2>
-      <p class="einleitung"></p>
+      <p class="einleitung" />
       <p>
         Die Direktorin des Ibero-Amerikanischen Instituts:
         <abbr title="Doktor">Dr.</abbr>
         Barbara Göbel
       </p>
-      <div class="trennlinie"></div>
+      <div class="trennlinie" />
       <h2>Betrieb</h2>
-      <p class="einleitung"></p>
-      <p>
-        Das Portal sowie die dafür erforderlichen Datenbanken werden vom Gemeinsamen Bibliotheksverbund GBV in Göttingen gehostet und betrieben.
-      </p>
+      <p class="einleitung" />
+      <p>Das Portal sowie die dafür erforderlichen Datenbanken werden vom Gemeinsamen Bibliotheksverbund GBV in Göttingen gehostet und betrieben.</p>
       <p>
         URL:
         <a href="https://www.gbv.de/" class="extern">www.gbv.de</a>
       </p>
-      <div class="trennlinie"></div>
+      <div class="trennlinie" />
       <h2>Datenschutzerklärung</h2>
-      <p class="einleitung"></p>
+      <p class="einleitung" />
       <p>Bei jedem Zugriff eines Nutzers auf das Internetangebot des Ibero-Amerikanischen Instituts und bei jedem Abruf
         einer Datei werden Daten über diesen Vorgang vorübergehend in einer Protokolldatei gespeichert und verarbeitet. Im
-        Einzelnen werden über jeden Zugriff/Abruf folgende Daten gespeichert:
-      </p>
+        Einzelnen werden über jeden Zugriff/Abruf folgende Daten gespeichert:</p>
       <p>
         - IP-Adresse/DNS-Name,
         <br />
@@ -85,13 +81,11 @@
         - Meldung, ob der Zugriff/Abruf erfolgreich war.
       </p>
       <p>Diese Daten werden lediglich für statistische Zwecke und zur Verbesserung des Angebotes ausgewertet. Eine andere
-        Verwendung oder Weitergabe an Dritte erfolgt nicht.
-      </p>
+        Verwendung oder Weitergabe an Dritte erfolgt nicht.</p>
       <p>Beim Aufruf einzelner Seiten werden so genannte temporäre Cookies verwendet, um die Navigation zu erleichtern.
         Diese Session Cookies beinhalten keine personenbezogenen Daten und verfallen nach Ablauf der Sitzung. Techniken,
         wie zum Beispiel Java-Applets oder Activ-X-Controls, die es ermöglichen, das Zugriffsverhalten der Nutzer
-        nachzuvollziehen, werden nicht eingesetzt.
-      </p>
+        nachzuvollziehen, werden nicht eingesetzt.</p>
       <p>
         <strong>Personenbezogene Daten</strong>
         <br />
@@ -103,9 +97,9 @@
         Personenbezogene Daten werden nur im technisch notwendigen und für die Abwicklung der Spende erforderlichen Umfang
         erhoben. In keinem Fall werden die erhobenen Daten verkauft oder aus anderen Gründen an Dritte weitergegeben.
       </p>
-      <div class="trennlinie"></div>
+      <div class="trennlinie" />
       <h2>Rechtliche Hinweise zur Haftung / Disclaimer</h2>
-      <p class="einleitung"></p>
+      <p class="einleitung" />
       <p>
         Das Ibero-Amerikanische Institut (
         <acronym title="Ibero Amerikanisches Institut">IAI</acronym>
@@ -157,21 +151,19 @@
         . Eine Vervielfältigung oder Verwendung solcher Grafiken, Tondokumente, Videosequenzen und Texte in anderen
         elektronischen oder gedruckten Publikationen ist ohne ausdrückliche Zustimmung nicht gestattet.
         <br />
-        <a href="mailto:info@algrama.com" class="email"></a>
+        <a href="mailto:info@algrama.com" class="email" />
       </p>
-      <div class="trennlinie"></div>
+      <div class="trennlinie" />
       <h2>Rechtswirksamkeit dieses Haftungsausschlusses</h2>
-      <p class="einleitung"></p>
+      <p class="einleitung" />
       <p>Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen
         wurde. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder
         nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in ihrem Inhalt und ihrer
-        Gültigkeit davon unberührt.
-      </p>
-      <div class="trennlinie"></div>
+        Gültigkeit davon unberührt.</p>
+      <div class="trennlinie" />
       <h2>Rechtliche Hinweise zum Urheberrecht</h2>
-      <p class="einleitung"></p>
-      <p>Das Layout der Homepage, die verwendeten Grafiken sowie die sonstigen Inhalte sind urheberrechtlich geschützt.
-      </p>
+      <p class="einleitung" />
+      <p>Das Layout der Homepage, die verwendeten Grafiken sowie die sonstigen Inhalte sind urheberrechtlich geschützt.</p>
     </div>
   </section>
   <meta>

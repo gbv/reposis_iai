@@ -19,12 +19,11 @@ html {
     body {
 	min-height: 100vh;
 	position: relative;
-	padding-bottom: 550px;
+	padding-bottom: 300px;
         background-color: $page-bg; 
         color: $text-color;
         header {
             background-color: $header-bg;
-            height: 270px;
             background-image: url('../../../../images/header_back_xs.jpg');
             background-repeat: no-repeat;
             background-position: 15px 0;
@@ -51,56 +50,6 @@ html {
     }
 }
 
-// main menu
-// with search, browse, bookmarks ...
-.caret {
-    margin-left: 4px;
-}
-.mir-main-nav {
-    height: 60px;
-    nav {
-        .navbar-nav {      
-            border-left: 1px solid white;
-	    .dropdown-menu {
-                background-color: $brand-primary;
-	    }  
-        }
-    }
-}
-.mir-main-nav nav .navbar-nav > li > a:hover {
-    color: $header-bg;
-}
-.mir-main-nav nav .navbar-nav .dropdown-menu > li > a:hover, 
-.mir-main-nav nav .navbar-nav .dropdown-menu > li > a:focus {
-    color: $header-bg;
-}
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .open.active > a,
-.navbar-default .navbar-nav > .open.active > a:hover,
-.navbar-default .navbar-nav > .open.active > a:focus {
-    color: $header-bg;
-    background-color: $brand-warning;
-}
-.mir-main-nav nav .navbar-nav .dropdown-menu > .active > a, 
-.mir-main-nav nav .navbar-nav .dropdown-menu > .active > a:hover, 
-.mir-main-nav nav .navbar-nav .dropdown-menu > .active > a:focus {
-    color: $header-bg;
-    background-color: $brand-warning;
-}
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:hover, 
-.navbar-default .navbar-nav > .open > a:focus {
-    background-color: #3b5b8a;
-    color: #fff;
-}
-
-
-.mir-main-nav nav .navbar-nav .dropdown-menu::before {
-    border-color: transparent transparent $brand-primary transparent; 
-}
-
 h1, h2, h3, h4, h5, h6 {
     color: $headline-color;
 }
@@ -116,35 +65,14 @@ footer {
     color: $page-bg;
 }
 
-// options menu 
-// with settings and language switcher
-#options_nav_box ul {
-    min-width: auto;
-    left: auto;
-    right: -10px;
-    padding: 5px 5px 5px 0px;
-    li {
-        display: inline-block;
-    }
-}
-
-.mir-prop-nav .navbar-nav > li > a {
-    color: white;
-    & .caret {
-        border-top-color: white;
-    }    
-    &:hover,
-    &:focus {
-        color: white;
-	text-decoration: underline;
-	& .caret {
-	    border-top-color: white;
-	}
-    }
-}
-
-
 /* ==== yellow page headlines ==== */
+
+@mixin first-headline {
+    color: $brand-primary;
+    background-color: $brand-warning;
+    margin: 0 -15px 30px -15px;
+    padding: 15px;
+}
 
 // start page headline
 .jumbotwo .col-xs-12 {
@@ -168,6 +96,22 @@ html body #page #main_content .jumbotwo h2 {
     }
 }
 
+// basket
+#main_content {
+    #basket {
+	#options {
+	    margin-top: 15px;
+        }
+	h2 {
+	    @include first-headline;
+	}
+    }
+}
+
+// login
+#main_content .form-login-heading { @include first-headline; }
+#page #main_content .iai-first-headline { @include first-headline; }
+#main_content form .panel-heading {padding: 0; }
 
 /* ==== result list ==== */
 .result_body {
@@ -227,13 +171,25 @@ form .panel-footer {
     border-top: none;     
 }
 
+// pagination
+.pagination > .disabled > span, 
+.pagination > .disabled > span:hover, 
+.pagination > .disabled > span:focus, 
+.pagination > .disabled > a, 
+.pagination > .disabled > a:hover, 
+.pagination > .disabled > a:focus {
+    background-color: #ccc;
+}
+
+// figure start page
+.mir-figure {
+    width: 100%;
+    margin-top: 20px;
+    margin: 20px 0px 20px 30px;
+}
+
 /* xs hd *********************************************************************/ 
 @media (min-width: 420px) {
-    html {
-        body {
-	    padding-bottom: 490px;
-	}
-    }
 }  
 
 /* custom width **************************************************************/ 
@@ -243,8 +199,9 @@ form .panel-footer {
 @media (min-width: $screen-tablet) {
     html {
         body {
-	    padding-bottom: 370px;
+	    padding-bottom: 250px;
             header {
+		height: 270px;
                 background-position: 50% 0;
                 background-image: url('../../../../images/header_back_sm.jpg');
                 #header_box {
@@ -254,9 +211,6 @@ form .panel-footer {
                 }            
 	    }
         }
-	#options_nav_box ul li {         
-	    display: block;     
-        }
     }	
 }   
 
@@ -264,14 +218,14 @@ form .panel-footer {
 @media (min-width: $screen-desktop) { 
     html {
         body {
-	    padding-bottom: 340px;
             header {
                 background-image: url('../../../../images/header_back_md.jpg');
             }
         }
     }
-    #options_nav_box {
-        margin-right: 30px;
+    // figure start page
+    .mir-figure {
+        width: 50%;
     }
 }  
 
@@ -279,7 +233,6 @@ form .panel-footer {
 @media (min-width: $screen-lg-desktop) {
     html {
         body {
-	    padding-bottom: 320px;
             header {
                 background-image: url('../../../../images/header_back_lg.jpg');
             }
