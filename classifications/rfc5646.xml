@@ -161,6 +161,12 @@
       <label xml:lang="x-term" text="kur" />
       <label xml:lang="x-bibl" text="kur" />
     </category>
+    <category ID="omc">
+      <label text="Mochica" xml:lang="en"/>
+      <label text="Muchik" xml:lang="de"/>
+      <label text="omc" xml:lang="x-bibl"/>
+      <label text="omc" xml:lang="x-term"/>
+    </category>
     <category ID="ar">
       <label xml:lang="en" text="Arabic" />
       <label xml:lang="x-term" text="ara" />
