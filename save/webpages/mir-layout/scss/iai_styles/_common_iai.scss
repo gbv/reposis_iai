@@ -17,9 +17,9 @@ $border-hover-color: $brand-primary;
 html {
     background-color: $footer-bg;
     body {
-	min-height: 100vh;
-	position: relative;
-	padding-bottom: 300px;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 300px;
         background-color: $page-bg; 
         color: $text-color;
         header {
@@ -33,14 +33,14 @@ html {
                 #project_logo_box img {
                     margin-top: 20px;
                 }
-	    }
-	}
+        }
+    }
         #page {
             background-color: $content-bg;
             margin-top: 60px;
-	    padding-top: 0px;
-	    #main_content {
-		padding-bottom: 50px;
+        padding-top: 0px;
+        #main_content {
+        padding-bottom: 50px;
             }
         }
         #powered_by {
@@ -88,24 +88,29 @@ html body #page #main_content .jumbotwo h2 {
     &.result_head {
         background-color: $brand-warning;
         .result_headline {
-	    h1 {
-		color: $contrast-font-color;
-	        margin-top: 20px;
+            h1 {
+                color: $contrast-font-color;
+                margin-top: 20px;
             }
-	}
+        }
     }
 }
 
 // basket
 #main_content {
     #basket {
-	#options {
-	    margin-top: 15px;
+    #options {
+        margin-top: 15px;
         }
-	h2 {
-	    @include first-headline;
-	}
+    h2 {
+        @include first-headline;
     }
+    }
+}
+
+// metadata page
+.mir-abstract-overlay-tran {
+    background: linear-gradient(to bottom,#d9edff 0,rgba(255,255,255,0) 1%,#d9edff 100%);
 }
 
 // login
@@ -117,18 +122,18 @@ html body #page #main_content .jumbotwo h2 {
 .result_body {
     .result_list {
         #hit_list { 
-	    .hit_item {
-		border-color: $border-color;
-	        .hit_counter,
-	        .single_hit_option {
-		    color: $border-color;
+        .hit_item {
+        border-color: $border-color;
+            .hit_counter,
+            .single_hit_option {
+            color: $border-color;
                     border-color: $border-color;
                 }
-		.hit_icon {
-		    border-color: $border-color;
-		    background-color: white;
-		}
-		&:hover {
+        .hit_icon {
+            border-color: $border-color;
+            background-color: white;
+        }
+        &:hover {
                     border-color: $border-hover-color;
                     .hit_counter,
                     .single_hit_option {
@@ -137,11 +142,11 @@ html body #page #main_content .jumbotwo h2 {
                     }
                     .hit_icon {
                         border-color: $border-hover-color;
-                    }			
-		}
-	    }	
-	}
-	.result_list_end {
+                    }            
+        }
+        }    
+    }
+    .result_list_end {
             border-color: $border-color;
         }
     }
@@ -199,19 +204,19 @@ form .panel-footer {
 @media (min-width: $screen-tablet) {
     html {
         body {
-	    padding-bottom: 250px;
-            header {
-		height: 270px;
+        padding-bottom: 250px;
+        header {
+            height: 270px;
                 background-position: 50% 0;
                 background-image: url('../../../../images/header_back_sm.jpg');
                 #header_box {
                     #project_logo_box img {
                         margin-left: -15px;
                     }
-                }            
-	    }
+                }
+            }
         }
-    }	
+    }
 }   
 
 /* md: up to 1170 px *********************************************************/ 
