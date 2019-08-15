@@ -22,7 +22,7 @@
       </xsl:choose>
     </xsl:variable>
     <mods:titleInfo xml:lang="{$language}">
-      <xsl:apply-templates select="@*|node()"/>
+      <xsl:apply-templates select="@*[not(name()='altRepGroup')]|node()"/>
     </mods:titleInfo>
   </xsl:template>
     
