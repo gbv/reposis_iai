@@ -7,24 +7,23 @@
   
   <xsl:include href="copynodes.xsl" />
   
-  <xsl:template match="mods:title">
-    <xsl:copy>
-      <xsl:attribute name="lang" namespace="xml">
-        <xsl:choose>
-          <xsl:when test="//mods:mods/mods:language/mods:languageTerm[@authority='rfc5646']">
-            <xsl:value-of select="//mods:mods/mods:language/mods:languageTerm[@authority='rfc5646']" />
-          </xsl:when>
-          <xsl:when test="//mods:mods/mods:relatedItem[@type='host']/mods:language/mods:languageTerm[@authority='rfc5646']">
-            <xsl:value-of select="//mods:mods/mods:language/mods:languageTerm[@authority='rfc5646']" />
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="'de'"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates select="*"/>
-    </xsl:copy>
+  <xsl:template match="mods:mods/mods:titleInfo[not(xml:lang)]">
+    <xsl:variable name="language">
+      <xsl:choose>
+        <xsl:when test="count(//mods:mods/mods:language/mods:languageTerm[@authority='rfc5646']) &gt; 0">
+          <xsl:value-of select="//mods:mods/mods:language/mods:languageTerm[@authority='rfc5646']" />
+        </xsl:when>
+        <xsl:when test="count(//mods:mods/mods:relatedItem[@type='host']/mods:language/mods:languageTerm[@authority='rfc5646']) &gt; 0">
+          <xsl:value-of select="//mods:mods/mods:relatedItem[@type='host']/mods:language/mods:languageTerm[@authority='rfc5646']" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="'de'"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <mods:titleInfo xml:lang="{$language}">
+      <xsl:apply-templates select="@*|node()"/>
+    </mods:titleInfo>
   </xsl:template>
     
 </xsl:stylesheet>
