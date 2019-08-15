@@ -43,7 +43,16 @@
   </xsl:template>
   
   <xsl:template match="mods:accessCondition[@type='use and reproduction']">
-    <xsl:variable name="katId"><xsl:value-of select="."/></xsl:variable>
+    <xsl:variable name="katId">
+      <xsl:choose>
+        <xsl:when test="starts-with(.,'cc_') and not(contains(.,'_3.0'))">
+          <xsl:value-of select="concat(.,'_3.0')"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="."/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <mods:accessCondition type="use and reproduction" xlink:href="http://www.mycore.org/classifications/mir_licenses#{$katId}" xlink:type="simple"/>
   </xsl:template>
   
