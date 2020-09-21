@@ -95,6 +95,7 @@
 	  <ul>
             <li><a href="{$WebApplicationBaseURL}content/below/imprint.xml">Impressum</a></li>
 	    <li><a href="{$WebApplicationBaseURL}content/below/privacy.xml">Datenschutz</a></li>
+        <li><a href="{$WebApplicationBaseURL}content/below/accessibility.xml">Barrierefreiheit</a></li>
 	    <li><a href="{$WebApplicationBaseURL}content/below/contact.xml">Kontakt</a></li>
 	  </ul>
         </div>
