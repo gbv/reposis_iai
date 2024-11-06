@@ -1,8 +1,0 @@
-Sitemap: http://reposis-test.gbv.de/iai/sitemap_google.xml
-User-agent: *
-Allow: /servlets/MCRFileNodeServlet/
-Disallow: /*?
-Disallow: /servlets/
-Disallow: /browse/
-Disallow: /rsc/
-Disallow: /api/

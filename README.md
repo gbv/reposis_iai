@@ -1,16 +1,17 @@
-# IAI Module
 
-One Paragraph of project description goes here
+# iai
 
-## Getting Started
+## Installation Instructions
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+* run `mvn clean install`
+* copy jar to ~/.mycore/(dev-)mir/lib/
 
-### Prerequisites
+## Development
 
-What things you need to install the software and how to install them
-
+You can add these to your ~/.mycore/(dev-)mir/.mycore.properties
 ```
-MIR
+MCR.Developer.Resource.Override=/path/to/reposis_iai/src/main/resources
+MCR.LayoutService.LastModifiedCheckPeriod=0
+MCR.UseXSLTemplateCache=false
+MCR.SASS.DeveloperMode=true
 ```
-
