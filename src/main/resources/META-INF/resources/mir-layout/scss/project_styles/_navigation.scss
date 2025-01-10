@@ -6,6 +6,74 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+  .mir-prop-nav .navbar-nav > li {
+    & > a {
+      color: black;
+      font-size: 1rem;
+      text-transform: uppercase;
+      padding: .25rem 1rem;
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .mir-main-nav {
+    .nav-link {
+      font-size: 1.25rem;
+      color: black;
+      font-weight: 700;
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  /* replace carret by chevron for all drop downs */
+  .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .375rem;
+    vertical-align: top;
+    content: "\f078";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    border: none;
+    font-size: 80%;
+  }
+
+  .dropdown-menu {
+    box-shadow: rgba(0, 0, 0, 0.24) 1px 2px 6px 0px;
+    .dropdown-item {
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .nav-link {
+    border: 2px solid transparent;
+  }
+  .dropdown {
+    &.show {
+      .dropdown-toggle {
+        border: 2px solid $iai-blue;
+      }
+    }
+  }
+
+  .footer-nav {
+    a {
+      &:hover,
+      &:focus {
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

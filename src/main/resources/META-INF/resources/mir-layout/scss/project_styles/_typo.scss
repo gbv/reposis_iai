@@ -5,6 +5,20 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+  h3, h4, h5 {
+    font-weight: 500;
+  }
+
+  hr {
+    height: 0px;
+    margin-bottom: 3rem;
+    border-top: 0.1rem $iai-yellow;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  a:hover {
+    text-decoration-thickness: 2px;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

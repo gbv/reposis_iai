@@ -14,8 +14,54 @@
 //  project settings
 // --------------------------------------------------
 
+$iai-yellow:      #f5b913;
+$iai-blue:        #004c8b;
+$iai-red:         #ff695a;
+$iai-lightyellow: #fbf1d4;
+$iai-lightblue:   #e5f4ff;
+$iai-lightred:    #ffe1de;
 
 
 // --------------------------------------------------
 //  overwrite bootstrap
 // --------------------------------------------------
+
+$primary: $iai-blue;
+$secondary: $iai-yellow;
+
+$body-color: black;
+
+$link-color: black;
+$link-hover-color:  black;
+$link-decoration: underline;
+
+$font-size-base: 1.125rem;
+$font-weight-light: 200;
+$font-weight-normal: 300;
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap";
+$font-family-sans-serif: Roboto, Helvetica, Arial, sans-serif;
+$headings-font-family: Rubik, Helvetica, Arial, sans-serif;;
+$headings-font-weight: 700;
+
+$navbar-light-color: black;
+$navbar-light-hover-color: black;
+$navbar-light-active-color: black;
+
+$navbar-nav-link-padding-x: 1rem;
+
+$dropdown-bg: $iai-lightyellow;
+$dropdown-link-color: black;
+$dropdown-link-hover-color: black;
+$dropdown-link-hover-bg: transparent;
+$dropdown-border-color: transparent;
+$dropdown-border-radius: 0;
+
+$h1-font-size: 2.5rem;
+$h2-font-size: 1.8rem;
+$h3-font-size: 1.2rem;
+$h4-font-size: 1rem;
+$h5-font-size: 1rem;
+$h6-font-size: 1rem;
+
+$headings-margin-bottom: 1rem;

@@ -17,6 +17,16 @@ $(document).ready(function() {
     return true;
   });
 
+  // open search bar
+  $( ".js-search-toggler" ).click(function() {
+    if ( $( ".search-bar" ).hasClass('open') ) {
+      $( ".search-bar" ).removeClass('open');
+    } else {
+      $( ".search-bar" ).addClass('open');
+      $( "#searchbar" ).focus();
+    }
+  });
+
   // replace placeholder USERNAME with username
   var userID = $("#currentUser strong").html();
   var newHref = 'https://reposis-test.gbv.de/PROJECT/servlets/solr/select?q=createdby:' + userID + '&fq=objectType:mods';
