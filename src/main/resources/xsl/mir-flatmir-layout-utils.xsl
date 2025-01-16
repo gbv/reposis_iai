@@ -12,50 +12,48 @@
 
     <div class="header_box container">
 
+      <nav class="mir-prop-nav">
+        <ul class="nav navbar-nav navbar-expand">
+          <xsl:call-template name="mir.loginMenu" />
+          <xsl:call-template name="mir.languageMenu" />
+        </ul>
+      </nav>
+
       <div class="project_logo_box">
         <a title="zur Homepage" href="https://www.iai.spk-berlin.de">
           <img alt="Logo IAI" src="{$WebApplicationBaseURL}images/logo-iai-main.png" />
         </a>
       </div>
 
-      <div class="project_nav_box">
-
-        <nav class="mir-prop-nav">
-          <ul class="nav navbar-nav navbar-expand">
-            <xsl:call-template name="mir.loginMenu" />
-            <xsl:call-template name="mir.languageMenu" />
-          </ul>
-        </nav>
-
-        <div class="mir-main-nav project-main-nav">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target=".mir-main-nav__entries--mobile"
-              aria-controls="mir-main-nav__entries--mobile"
-              aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon text-primary"></span>
-            </button>
-            <div class="collapse navbar-collapse mir-main-nav__entries">
-              <ul class="navbar-nav">
-                <xsl:call-template name="project.generate_single_menu_entry">
-                  <xsl:with-param name="menuID" select="'brand'"/>
-                </xsl:call-template>
-                <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
-                <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
-                <xsl:call-template name="mir.basketMenu" />
-              </ul>
-            </div>
-          </nav>
-          <div class="search-button search-toggler js-search-toggler">
-            <i class="fas fa-search search-button__icon"></i>
+      <div class="mir-main-nav project-main-nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target=".mir-main-nav__entries--mobile"
+            aria-controls="mir-main-nav__entries--mobile"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-primary"></span>
+          </button>
+          <div class="collapse navbar-collapse mir-main-nav__entries">
+            <ul class="navbar-nav">
+              <xsl:call-template name="project.generate_single_menu_entry">
+                <xsl:with-param name="menuID" select="'brand'"/>
+              </xsl:call-template>
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='publish']" />
+              <xsl:call-template name="mir.basketMenu" />
+            </ul>
           </div>
+        </nav>
+        <div class="search-button search-toggler js-search-toggler">
+          <i class="fas fa-search search-button__icon"></i>
+          <i class="fa-regular fa-circle-xmark search-button__close"></i>
         </div>
-
       </div>
+
     </div>
 
     <div class="collapse mir-main-nav__entries--mobile">
@@ -135,7 +133,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col footer-contact">
           <h3>Ibero-Amerikanisches Institut</h3>
           <p>
             Anschrift:<br />
@@ -154,8 +152,8 @@
     <div class="flatmir-footer__bottom">
       <div class="container">
         <div class="row ">
-          <div class="col footer-nav">
-            <ul class="nav flex-column flex-md-row">
+          <div class="col-auto footer-nav">
+            <ul class="nav flex-column flex-lg-row">
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
             </ul>
           </div>

@@ -20,8 +20,10 @@ $(document).ready(function() {
   // open search bar
   $( ".js-search-toggler" ).click(function() {
     if ( $( ".search-bar" ).hasClass('open') ) {
+      $( ".search-toggler" ).removeClass('opened');
       $( ".search-bar" ).removeClass('open');
     } else {
+      $( ".search-toggler" ).addClass('opened');
       $( ".search-bar" ).addClass('open');
       $( "#searchbar" ).focus();
     }

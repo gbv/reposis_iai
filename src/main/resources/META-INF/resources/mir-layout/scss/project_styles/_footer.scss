@@ -18,6 +18,8 @@
     }
   }
 
+  .footer-contact {
+  }
   .footer-logo {
     text-align: right;
     img {
@@ -26,11 +28,13 @@
   }
 
   .footer-nav {
+    order: 1;
     li:first-child a {
       padding-left: 0;
     }
   }
   .social-nav {
+    order: 2;
     display: flex;
     justify-content: flex-end;
     .fa-stack {
@@ -50,6 +54,26 @@
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
+  .footer-contact {
+    flex: 1 1 100%;
+  }
+  .footer-logo {
+    flex: 1 1 100%;
+    margin-top: 2rem;
+    text-align: left;
+  }
+  .footer-nav {
+    order: 2;
+    flex: 1 1 100%;
+    margin-top: 1rem;
+    li a {
+      padding-left: 0;
+    }
+  }
+  .social-nav {
+    order: 1;
+    flex: 1 1 100%;
+  }
 }
 
 // Small devices (landscape phones) and below: <= 768px

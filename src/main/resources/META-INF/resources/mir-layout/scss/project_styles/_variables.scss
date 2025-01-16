@@ -21,13 +21,24 @@ $iai-lightyellow: #fbf1d4;
 $iai-lightblue:   #e5f4ff;
 $iai-lightred:    #ffe1de;
 
+// old colors
+$iai-green:       #6eba6b;
+$iai-bluedark:    #4a72ae;
+$iai-bluemedium:  #4b8fbc;
+$iai-orange:      #f6b825;
+$iai-red:         #d62c1a;
 
 // --------------------------------------------------
 //  overwrite bootstrap
 // --------------------------------------------------
 
 $primary: $iai-blue;
-$secondary: $iai-yellow;
+$secondary: $iai-blue;
+
+$success: $iai-green;
+$danger: $iai-red;
+$warning: $iai-orange;
+$info: $iai-bluemedium;
 
 $body-color: black;
 
@@ -65,3 +76,22 @@ $h5-font-size: 1rem;
 $h6-font-size: 1rem;
 
 $headings-margin-bottom: 1rem;
+
+$pagination-padding-y:              .5rem;
+$pagination-padding-x:              .75rem;
+$pagination-padding-y-sm:           .5rem;
+$pagination-padding-x-sm:           .75rem;
+$pagination-padding-y-lg:           .75rem;
+$pagination-padding-x-lg:           1.5rem;
+$pagination-line-height:            1.25;
+$pagination-color:                  white;
+$pagination-bg:                     $iai-blue;
+$pagination-border-width:           0;
+$pagination-focus-box-shadow:       none;
+$pagination-focus-outline:          0;
+$pagination-hover-color:            black;
+$pagination-hover-bg:               $iai-yellow;
+$pagination-active-color:           black;
+$pagination-active-bg:              $iai-yellow;
+$pagination-disabled-color:         #999;
+$pagination-disabled-bg:            #ccc;

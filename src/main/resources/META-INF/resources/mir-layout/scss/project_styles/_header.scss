@@ -17,7 +17,9 @@
     justify-content: space-between;
     padding: 1rem 0;
     position: relative;
+    flex-wrap: wrap;
     .project_logo_box {
+      flex: 1 1 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -29,24 +31,17 @@
         width: 216px;
       }
     }
-    .project_nav_box {
+    .mir-prop-nav {
+      flex-basis: 100%;
       display: flex;
       justify-content: flex-end;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1.5rem 0;
-      .mir-prop-nav {
-        flex-basis: 100%;
-        display: flex;
-        justify-content: flex-end;
-      }
-      .project-main-nav {
-        flex-basis: 100%;
-        display: flex;
-        justify-content: flex-end;
-        .navbar {
-          padding: 0;
-        }
+    }
+    .project-main-nav {
+      flex-basis: 100%;
+      display: flex;
+      justify-content: flex-end;
+      .navbar {
+        padding: 0;
       }
     }
   }
@@ -55,6 +50,24 @@
     padding: .5rem 1rem;
     cursor: pointer;
     border: 2px solid transparent;
+    .search-button {
+      &__icon {
+        display: block;
+      }
+      &__close {
+        display: none;
+      }
+    }
+    &.opened {
+      .search-button {
+        &__icon {
+          display: none;
+        }
+        &__close {
+          display: block;
+        }
+      }
+    }
   }
 
   .search-bar {
@@ -64,6 +77,7 @@
     &__form {
       background-color: $iai-lightyellow;
       padding: 1rem;
+      min-width: 320px;
     }
     &__input {
       width: 100%;
@@ -110,10 +124,6 @@
     }
   }
 
-
-
-
-
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
@@ -132,4 +142,9 @@
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+  .header_box {
+    .project_logo_box {
+      padding: 1rem 1rem;
+    }
+  }
 }
