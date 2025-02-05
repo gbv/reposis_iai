@@ -26,6 +26,31 @@
     text-decoration: none;
   }
 
+    // adjustments for this project only
+  .detail_row {
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+  }
+  .mir-toc-section-title {
+    font-weight: 400;
+  }
+
+  // TODO: fix in MIR
+  .detail_block {
+    padding-bottom: 2rem;
+  }
+  .detail_block,
+  .mir_metadata {
+    h3 {
+      font-size: $font-size-base;
+    }
+  }
+  #mir-abstract {
+    margin-bottom: 0;
+  }
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
