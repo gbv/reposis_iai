@@ -14,13 +14,17 @@
           Stand der Vereinbarkeit mit den Anforderungen
         </h2>
         <p>
-          Diese Website ist mit dem Behindertengleichstellungsgesetz (BGG) und der Barrierefreie-Informationstechnik-Verordnung
-          (BITV 2.0) teilweise vereinbar. 
+          Aufgrund der Überprüfung gemäß Selbsteinschätzung nach BITV-Test ist die Webseite mit den zuvor genannten Anforderungen nur teilweise vereinbar.
         </p>
-        <h2> 
-          Nicht barrierefreie Inhalte
+        <p>
+          Die Webseite publications.iai.spk-berlin.de und deren Funktionalität und Darstellungsform auf gängigen Endgeräten sind mit den Web Content
+          Accessibility Guidelines 2.1 (WCAG 2.1) Level AA und den Vorgaben der harmonisierten europäischen Norm EN 301 549 V2.1.2 (08-2018) teilweise
+          vereinbar.
+        </p>
+        <h2>
+          Unvereinbarkeit mit der BITV 2.0
         </h2>
-        <p> 
+        <p>
           Die auf dem Publikationsserver veröffentlichten Dokumente sind teilweise nicht barrierefrei und können nicht automatisiert in ein
           barrierefreies Format umgewandelt werden, da
           <ul>
@@ -40,17 +44,37 @@
           Der Publikationsserver richtet sich an Wissenschafler aus den jeweiligen Fachbereichen. Auf Grund der komplexen Inhalte 
           kann eine einfache Sprachgestaltung nicht umgesetzt werden und es werden gängige Fachbegriffe und Abkürzungen genutzt.
         </p>
+        <p>
+          Die Webseite ist weiterhin aus den folgenden Gründen noch nicht abschließend barrierefrei:
+        </p>
+        <ul>
+          <li>Es fehlen in weiten Teilen alternative Text-Inhalte für Bilder</li>
+          <li>Eine sinnvolle Reihenfolge der Tabs ist bei eingeschalteten CSS nicht immer gegeben</li>
+          <li>Die Webseite ist nur teilweise ohne Maus zu nutzen</li>
+          <li>Inhalte sind nicht immer fortlaufend (bei eingeschaltetem CSS) gegliedert</li>
+          <li>nicht alle Bereiche sind überspringbar</li>
+          <li>die aktuelle Position des Fokus ist nicht immer ersichtlich</li>
+          <li>die sichtbare Beschriftung ist nicht fortlaufend Teil des zugänglichen Namens</li>
+          <li>die Hauptsprache der Seite ist nicht angegeben</li>
+          <li>Anderssprachige Wörter und Abschnitte sind nicht ausgezeichnet</li>
+          <li>Eine korrekte Syntax ist nicht immer gewährleistet</li>
+          <li>Nicht alle interaktiven Bedienelemente haben programmatische ermittelbare Namen und Rollen</li>
+        </ul>
+        <p>
+          Die identifizierten Defizite und Mängel befinden sich aktuell in einem kontinuierlichen Verbesserungsprozess, der sukzessive abgearbeitet wird.
+        </p>
+        
         <h2>
           Erstellung dieser Erklärung zur Barrierefreiheit
         </h2>
         <p>
-          Diese Erklärung wurde am 21.09.2020 erstellt. Die Einschätzung basiert auf Selbstbewertung. 
+          Diese Erklärung wurde am 21.09.2020 erstellt und am 07.02.2025 aktualisiert. Die Einschätzung basiert auf Selbstbewertung. 
         </p>
         <h2>
           Kontakt und Feedback
         </h2>
         <p>
-          Über die <a href="https://www.iai.spk-berlin.de/apps/w">Kontaktseite</a> des  Ibero-Amerikanische Instituts können sie Mängel
+          Über die <a href="https://www.iai.spk-berlin.de//kontakt.html">Kontaktseite</a> des Ibero-Amerikanische Instituts können sie Mängel
           in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen
           mitteilen und nicht barrierefreie Inhalte in einem für sie zugänglichen Format anfordern. 
         </p>
@@ -83,6 +107,6 @@
     </div>
   </section>
   <meta>
-    <log lastEditor="administrator" date="2020-09-21" time="12:30" />
+    <log lastEditor="administrator" date="2025-02-07" time="13:12" />
   </meta>
 </MyCoReWebPage>
