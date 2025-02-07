@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_genres">
-  <label xml:lang="pt" text="Género" />
-  <label xml:lang="en" text="genre" description="A list of publication types" />
-  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_genres" />
-  <label xml:lang="es" text="Género" />
   <label xml:lang="de" text="Genre" description="Liste der Publikationsarten" />
+  <label xml:lang="en" text="genre" description="A list of publication types" />
+  <label xml:lang="es" text="Género" />
+  <label xml:lang="pt" text="Género" />
+  <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_genres" />
   <categories>
     <category ID="article">
-      <label xml:lang="x-hosts" text="journal standalone" />
-      <label xml:lang="es" text="Artículo de revista" />
-      <label xml:lang="x-mapping" text="marcgt:article diniPublType:article" />
       <label xml:lang="de" text="Zeitschriftenaufsatz" />
-      <label xml:lang="pt" text="Artigo de revista" />
       <label xml:lang="en" text="Journal article" />
+      <label xml:lang="es" text="Artículo de revista" />
+      <label xml:lang="pt" text="Artigo de revista" />
+      <label xml:lang="x-hosts" text="journal standalone" />
+      <label xml:lang="x-mapping" text="marcgt:article diniPublType2022:Article schemaOrg:ScholarlyArticle" />
     </category>
     <category ID="chapter">
-      <label xml:lang="en" text="Book chapter" />
       <label xml:lang="de" text="Beitrag in Sammelband" />
-      <label xml:lang="x-mapping" text="marcgt:article diniPublType:bookPart" />
+      <label xml:lang="en" text="Book chapter" />
+      <label xml:lang="es" text="Capítulo de libro" />
       <label xml:lang="pt" text="Capítulo de livro" />
       <label xml:lang="x-hosts" text="book" />
-      <label xml:lang="es" text="Capítulo de libro" />
+      <label xml:lang="x-mapping" text="marcgt:article diniPublType22:BookPart schemaOrg:Chapter" />
     </category>
     <category ID="report">
-      <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="de" text="Report" />
+      <label xml:lang="en" text="Report" />
       <label xml:lang="es" text="Informe" />
       <label xml:lang="pt" text="Relatório" />
-      <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report" />
-      <label xml:lang="en" text="Report" />
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:reporting diniPublType2022:Report schemaOrg:Report" />
       <category ID="research_results">
-        <label xml:lang="x-hosts" text="standalone" />
-        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report" />
-        <label xml:lang="en" text="Research Results" />
         <label xml:lang="de" text="Forschungsergebnisse" />
+        <label xml:lang="en" text="Research Results" />
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType2022:Report schemaOrg:Report" />
       </category>
       <category ID="in_house">
-        <label xml:lang="x-hosts" text="standalone" />
-        <label xml:lang="en" text="In House" />
-        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report" />
         <label xml:lang="de" text="In House" />
+        <label xml:lang="en" text="In House" />
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType2022:Report schemaOrg:Report" />
       </category>
       <category ID="press_release">
-        <label xml:lang="x-hosts" text="standalone" />
-        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report" />
         <label xml:lang="de" text="Presseerklärung" />
         <label xml:lang="en" text="Press Release" />
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType2022:Report schemaOrg:Report" />
       </category>
       <category ID="poster">
-        <label xml:lang="x-hosts" text="standalone" />
-        <label xml:lang="x-mapping" text="marcgt:technical_drawing diniPublType:ResearchData" />
+        <label xml:lang="de" text="Poster" />
         <label xml:lang="en" text="Poster" />
         <label xml:lang="it" text="Locandina" />
-        <label xml:lang="de" text="Poster" />
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="x-mapping" text="marcgt:technical_drawing diniPublType2022:ConferencePoster schemaOrg:PresentationDigitalDocument" />
       </category>
       <category ID="declaration">
-        <label xml:lang="x-hosts" text="standalone" />
-        <label xml:lang="en" text="Professional Declaration" />
-        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report" />
         <label xml:lang="de" text="Fachliche Stellungnahme" />
+        <label xml:lang="en" text="Professional Declaration" />
+        <label xml:lang="x-hosts" text="standalone" />
+        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType2022:Report schemaOrg:Report" />
       </category>
     </category>
     <category ID="series">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="x-mapping" text="marcgt:series diniPublType:other" />
-      <label xml:lang="en" text="Series" />
       <label xml:lang="de" text="Serie" />
-      <label xml:lang="pt" text="Coleção" />
+      <label xml:lang="en" text="Series" />
       <label xml:lang="es" text="Serie" />
+      <label xml:lang="pt" text="Coleção" />
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:series diniPublType2022:Other schemaOrg:BookSeries" />
     </category>
     <category ID="journal">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="es" text="Revista" />
       <label xml:lang="de" text="Zeitschrift" />
       <label xml:lang="en" text="Journal" />
-      <label xml:lang="x-mapping" text="marcgt:journal diniPublType:Periodical" />
+      <label xml:lang="es" text="Revista" />
       <label xml:lang="pt" text="Revista" />
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:journal diniPublType2022:Periodical schemaOrg:Periodical" />
     </category>
     <category ID="book">
+      <label xml:lang="de" text="Sammelband / Monographie" />
+      <label xml:lang="en" text="Edited book" />
       <label xml:lang="es" text="Libro" />
       <label xml:lang="pt" text="Antologia" />
-      <label xml:lang="x-mapping" text="marcgt:book diniPublType:book" />
       <label xml:lang="x-hosts" text="series standalone" />
-      <label xml:lang="en" text="Edited book" />
-      <label xml:lang="de" text="Sammelband / Monographie" />
+      <label xml:lang="x-mapping" text="marcgt:book diniPublType2022:Book schemaOrg:Book" />
     </category>
     <category ID="audio">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="en" text="Audio file" />
-      <label xml:lang="x-mapping" text="marcgt:sound diniPublType:Sound" />
       <label xml:lang="de" text="Tondokument" />
+      <label xml:lang="en" text="Audio file" />
       <label xml:lang="it" text="Registrazione audio" />
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:sound diniPublType2022:Sound schemaOrg:MediaObject" />
     </category>
     <category ID="video">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="it" text="Film / Video" />
       <label xml:lang="de" text="Film / Video" />
       <label xml:lang="en" text="Movie / Video" />
-      <label xml:lang="x-mapping" text="marcgt:motion_picture diniPublType:MovingImage" />
+      <label xml:lang="it" text="Film / Video" />
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="x-mapping" text="marcgt:motion_picture diniPublType2022:MovingImage schemaOrg:MediaObject" />
     </category>
   </categories>
 </mycoreclass>
