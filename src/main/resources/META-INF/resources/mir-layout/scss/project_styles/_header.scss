@@ -1,0 +1,153 @@
+/*
+ *  header settings
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+// logo and menu container
+  html > body > header {
+    min-width: 320px;
+    background-color: white;
+  }
+
+  .header_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    position: relative;
+    flex-wrap: wrap;
+    .project_logo_box {
+      flex: 1 1 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      a {
+        display: block;
+      }
+      img {
+        margin: 0;
+        width: 216px;
+      }
+    }
+    .mir-prop-nav {
+      flex-basis: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .project-main-nav {
+      flex-basis: 100%;
+      display: flex;
+      justify-content: flex-end;
+      .navbar {
+        padding: 0;
+      }
+    }
+  }
+
+  .search-toggler {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    .search-button {
+      &__icon {
+        display: block;
+      }
+      &__close {
+        display: none;
+      }
+    }
+    &.opened {
+      .search-button {
+        &__icon {
+          display: none;
+        }
+        &__close {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .search-bar {
+    display: none;
+    position: absolute;
+    width: 100%;
+    &__form {
+      background-color: $iai-lightyellow;
+      padding: 1rem;
+      min-width: 320px;
+    }
+    &__input {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      input {
+        flex: 1 1 auto;
+      }
+    }
+    &.open {
+      display: block;
+    }
+  }
+
+  .page-position {
+    height: 30vh;
+    background-image: url('../../../../images/figure_repository_IAI.jpg');
+    background-image: url('../../../../images/2020_Publikationen_A_02.jpg');
+    background-image: url('../../../../images/imo_N3A7044.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    &__title-box {
+      display: flex;
+    }
+    &__title {
+      flex: 0 0 auto;
+      background-color: white;
+      padding: 1rem 3rem 1rem 0;
+      position: relative;
+      font-size: 1rem;
+      &::before {
+        content: "IAI";
+        display: block;
+        position: absolute;
+        width: 200px;
+        left: -500px;
+        background-color: white;
+        bottom: 0;
+        z-index: 100;
+        color: #fff0;
+        width: 500px;
+        padding: 1rem 0;
+      }
+    }
+  }
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+  .header_box {
+    .project_logo_box {
+      padding: 1rem 1rem;
+    }
+  }
+}

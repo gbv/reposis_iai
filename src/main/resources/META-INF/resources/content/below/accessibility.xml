@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Erklärung zur Barrierefreiheit">
+    <div class="row">
+      <div class="col-md-10" lang="de">
+        <h1>Erklärung zur Barrierefreiheit</h1>
+        <p>
+          Das Ibero-Amerikanische Institut ist bemüht, seine Website im Einklang mit den nationalen Rechtsvorschriften
+          zur Umsetzung der Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates barrierefrei zugänglich zu machen.
+          Diese Erklärung zur Barrierefreiheit gilt für den Internetauftritt publications.iai.spk-berlin.de. 
+        </p>
+        <h2>
+          Stand der Vereinbarkeit mit den Anforderungen
+        </h2>
+        <p>
+          Aufgrund der Überprüfung gemäß Selbsteinschätzung nach BITV-Test ist die Webseite mit den zuvor genannten Anforderungen nur teilweise vereinbar.
+        </p>
+        <p>
+          Die Webseite publications.iai.spk-berlin.de und deren Funktionalität und Darstellungsform auf gängigen Endgeräten sind mit den Web Content
+          Accessibility Guidelines 2.1 (WCAG 2.1) Level AA und den Vorgaben der harmonisierten europäischen Norm EN 301 549 V2.1.2 (08-2018) teilweise
+          vereinbar.
+        </p>
+        <h2>
+          Unvereinbarkeit mit der BITV 2.0
+        </h2>
+        <p>
+          Die auf dem Publikationsserver veröffentlichten Dokumente sind teilweise nicht barrierefrei und können nicht automatisiert in ein
+          barrierefreies Format umgewandelt werden, da
+          <ul>
+           <li> das Ibero-Amerikanische Institut nicht das Recht auf die Änderung der Dateien besitzt, </li>
+           <li> die Ausgangsformate nicht zu Verfügungs stehen,</li>
+           <li> die Zitierfähigkeit der Dokumente nicht mehr gewährleistet ist.</li>
+          </ul>
+          Eine nachträgliche manuelle Bearbeitung der Dokumente ist unverhältnismäßig arbeitsaufwendig und wird nur in Ausnahmefällen
+          durchgeführt.
+        </p>
+        <p>
+          In aus vorliegenden Druckwerken durch Scans entstanden Digitalisaten wurde mittels OCR-Software Text hinter die
+          Seitenbilder gelegt. Eine weitere Bearbeitung hinsichtlich Barrierefreiheit erfolgt nicht, um die Authentizität der
+          Reproduktion zu gewährleisten.     
+        </p>
+        <p>
+          Der Publikationsserver richtet sich an Wissenschafler aus den jeweiligen Fachbereichen. Auf Grund der komplexen Inhalte 
+          kann eine einfache Sprachgestaltung nicht umgesetzt werden und es werden gängige Fachbegriffe und Abkürzungen genutzt.
+        </p>
+        <p>
+          Die Webseite ist weiterhin aus den folgenden Gründen noch nicht abschließend barrierefrei:
+        </p>
+        <ul>
+          <li>Es fehlen in weiten Teilen alternative Text-Inhalte für Bilder</li>
+          <li>Eine sinnvolle Reihenfolge der Tabs ist bei eingeschalteten CSS nicht immer gegeben</li>
+          <li>Die Webseite ist nur teilweise ohne Maus zu nutzen</li>
+          <li>Inhalte sind nicht immer fortlaufend (bei eingeschaltetem CSS) gegliedert</li>
+          <li>nicht alle Bereiche sind überspringbar</li>
+          <li>die aktuelle Position des Fokus ist nicht immer ersichtlich</li>
+          <li>die sichtbare Beschriftung ist nicht fortlaufend Teil des zugänglichen Namens</li>
+          <li>die Hauptsprache der Seite ist nicht angegeben</li>
+          <li>Anderssprachige Wörter und Abschnitte sind nicht ausgezeichnet</li>
+          <li>Eine korrekte Syntax ist nicht immer gewährleistet</li>
+          <li>Nicht alle interaktiven Bedienelemente haben programmatische ermittelbare Namen und Rollen</li>
+        </ul>
+        <p>
+          Die identifizierten Defizite und Mängel befinden sich aktuell in einem kontinuierlichen Verbesserungsprozess, der sukzessive abgearbeitet wird.
+        </p>
+        
+        <h2>
+          Erstellung dieser Erklärung zur Barrierefreiheit
+        </h2>
+        <p>
+          Diese Erklärung wurde am 21.09.2020 erstellt und am 07.02.2025 aktualisiert. Die Einschätzung basiert auf Selbstbewertung. 
+        </p>
+        <h2>
+          Kontakt und Feedback
+        </h2>
+        <p>
+          Über die <a href="https://www.iai.spk-berlin.de//kontakt.html">Kontaktseite</a> des Ibero-Amerikanische Instituts können sie Mängel
+          in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen
+          mitteilen und nicht barrierefreie Inhalte in einem für sie zugänglichen Format anfordern. 
+        </p>
+        <h2>
+          Durchsetzungsverfahren
+        </h2>
+        <p>
+          Wenn wir Ihre Rückmeldungen nicht zu Ihrer Befriedigung bearbeiten, können Sie sich an die
+          Schlichtungsstelle bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen
+          wenden.
+        </p>
+        <h3>
+          Kontakt
+        </h3>
+        <p> 
+          Schlichtungsstelle nach dem Behindertengleichstellungsgesetz
+          bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen
+        </p>
+        <p>
+          Mauerstraße 53<br/>
+          10117 Berlin<br/>
+          <br/>
+          Telefon: +49 (0)30 18527-2805<br/>
+          Fax: +49 (0)30 18527-2901<br/>
+          <br/>
+          E-Mail: info@schlichtungsstelle-bgg.de<br/>
+          www.schlichtungsstelle-bgg.de<br/>
+        </p>
+      </div>
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="administrator" date="2025-02-07" time="13:12" />
+  </meta>
+</MyCoReWebPage>

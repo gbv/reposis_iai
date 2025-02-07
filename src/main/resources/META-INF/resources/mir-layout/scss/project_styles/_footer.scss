@@ -1,0 +1,93 @@
+/*
+ *  footer settings
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+  .flatmir-footer {
+    color: white;
+    background-color: $iai-blue;
+    .container {
+      padding-top: 1.2rem;
+      padding-bottom: 1.4rem;
+    }
+    &__bottom {
+      border-top: 1px solid white;
+    }
+  }
+
+  .footer-contact {
+  }
+  .footer-logo {
+    text-align: right;
+    img {
+      width: 318px;
+    }
+  }
+
+  .footer-nav {
+    order: 1;
+    li:first-child a {
+      padding-left: 0;
+    }
+  }
+  .social-nav {
+    order: 2;
+    display: flex;
+    justify-content: flex-end;
+    .icon-bsky,
+    .fa-stack {
+      margin-right: 30px;
+    }
+    li:last-child .fa-stack {
+      margin-right: 0;
+    }
+    .icon-bsky {
+      width: 45px;
+      height: 36px;
+
+    }
+
+  }
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+  .footer-contact {
+    flex: 1 1 100%;
+  }
+  .footer-logo {
+    flex: 1 1 100%;
+    margin-top: 2rem;
+    text-align: left;
+  }
+  .footer-nav {
+    order: 2;
+    flex: 1 1 100%;
+    margin-top: 1rem;
+    li a {
+      padding-left: 0;
+    }
+  }
+  .social-nav {
+    order: 1;
+    flex: 1 1 100%;
+  }
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}

@@ -79,6 +79,9 @@ local.properties
 # STS (Spring Tool Suite)
 .springBeans
 
+# Visual Studio Code
+*.code-workspace
+
 # Code Recommenders
 .recommenders/
 
@@ -158,10 +161,8 @@ $RECYCLE.BIN/
 
 #mycore specific
 MCRWebCLI-unprocessed-commands.txt
-jwt.secret
 messages_de.resolved.properties
 messages_en.resolved.properties
 mycore.active.properties
-mycore.properties
 mycore.resolved.properties
 resources/META-INF/persistence.xml

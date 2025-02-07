@@ -1,0 +1,72 @@
+/*  typography settings
+ */
+
+// Extra large devices (large desktops)
+// set the defaults for all responsive levels here
+// no (xl) media query necessary (desktop first)
+
+  h3, h4, h5 {
+    font-weight: 500;
+  }
+
+  hr {
+    height: 0px;
+    margin-bottom: 3rem;
+    border-top: 0.1rem $iai-yellow;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  a:hover {
+    text-decoration-thickness: 2px;
+  }
+
+  a.hit_option,
+  a.badge,
+  a.badge:hover {
+    text-decoration: none;
+  }
+
+    // adjustments for this project only
+  .detail_row {
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+  }
+  .mir-toc-section-title {
+    font-weight: 400;
+  }
+
+  // TODO: fix in MIR
+  .detail_block {
+    padding-bottom: 2rem;
+  }
+  .detail_block,
+  .mir_metadata {
+    h3 {
+      font-size: $font-size-base;
+    }
+  }
+  #mir-abstract {
+    margin-bottom: 0;
+  }
+
+// Large devices (desktops) and below: <= 1200px
+@include media-breakpoint-down(lg) {
+  // add/overwrite styles for responsive level lg and lower
+}
+
+// Medium devices (tablets) and below: <= 992px
+@include media-breakpoint-down(md) {
+  // add/overwrite styles for responsive level md and lower
+}
+
+// Small devices (landscape phones) and below: <= 768px
+@include media-breakpoint-down(sm) {
+  // add/overwrite styles for responsive level sm and lower
+}
+
+// Extra small devices (portrait phones): <= 576px
+@include media-breakpoint-down(xs) {
+  // add/overwrite styles for responsive level xs
+}
