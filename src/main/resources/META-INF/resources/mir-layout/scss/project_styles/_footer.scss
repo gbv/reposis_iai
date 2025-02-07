@@ -37,11 +37,17 @@
     order: 2;
     display: flex;
     justify-content: flex-end;
+    .icon-bsky,
     .fa-stack {
       margin-right: 30px;
     }
     li:last-child .fa-stack {
       margin-right: 0;
+    }
+    .icon-bsky {
+      width: 45px;
+      height: 36px;
+
     }
 
   }

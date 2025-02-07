@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
+    xmlns:xlink="http://www.w3.org/2000/svg"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
     xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
@@ -137,8 +138,7 @@
           <h3>Ibero-Amerikanisches Institut</h3>
           <p>
             Anschrift:<br />
-            Potsdamer Straße 37, 10785 Berlin<br />
-            <a href="#">Kontakt</a>
+            Potsdamer Straße 37, 10785 Berlin
           </p>
         </div>
         <div class="col-auto footer-logo">
@@ -162,42 +162,43 @@
             <ul class="nav">
               <li>
                 <a
-                  href="xxx"
+                  href="http://www.facebook.com/pages/Ibero-Amerikanisches-Institut-Preu%C3%9Fischer-Kulturbesitz/479710008716382"
                   class="facebook">
                   <span class="fa-stack">
                     <i class="fab fa-facebook-f fa-stack-2x"></i>
                   </span>
-                  <span class="d-none">xxx</span>
+                  <span class="d-none">Facebook</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="xxx"
+                  href="https://www.instagram.com/ibero.amerikanisches.institut/"
                   class="instagram">
                   <span class="fa-stack">
                     <i class="fab fa-instagram fa-stack-2x"></i>
                   </span>
-                  <span class="d-none">xxx</span>
+                  <span class="d-none">Instagram</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="xxx"
-                  class="twitter">
-                  <span class="fa-stack">
-                    <i class="fab fa-twitter fa-stack-2x"></i>
-                  </span>
-                  <span class="d-none">xxx</span>
+                  rel="noreferrer"
+                  class="social__link"
+                  target="_blank"
+                  href="https://bsky.app/profile/iaiberlin.bsky.social">
+                  <svg class="icon-bsky" aria-hidden="true">
+                    <use xlink:href="{$WebApplicationBaseURL}images/icons.svg#icon-social-bluesky" x="0" y="0"></use>
+                  </svg>
                 </a>
               </li>
               <li>
                 <a
-                  href="xxx"
+                  href="https://www.youtube.com/c/IberoAmerikanischesInstitut"
                   class="youtube">
                   <span class="fa-stack">
                     <i class="fab fa-youtube fa-stack-2x"></i>
                   </span>
-                  <span class="d-none">xxx</span>
+                  <span class="d-none">YouTube</span>
                 </a>
               </li>
             </ul>
