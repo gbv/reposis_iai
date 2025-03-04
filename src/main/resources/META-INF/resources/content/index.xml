@@ -5,6 +5,7 @@
     <head>
       <meta name="title" content="Publikationsserver des Ibero-Amerikanischen Instituts Stiftung Preußischer Kulturbesitz"/>
       <meta name="description" content="Auf den Seiten des Publikationsservers haben Sie Open Access zu den meisten eigenen Publikationen des IAI (Sammelbände, Monographien, Working Paper, Ausstellungskataloge und mehr)." />
+      <link rel="canonical" href="https://publications.iai.spk-berlin.de/content/index.xml" />
       <script type="application/ld+json">
         {
           "@context" : "https://schema.org",
